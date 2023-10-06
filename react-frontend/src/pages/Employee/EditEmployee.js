@@ -61,7 +61,7 @@ function EditEmployee() {
 
     if (isCheck) {
       await axios.put(`http://localhost:8080/api/edit-employee/${id}`, employee)
-      navigate("/product");
+      navigate("/employee");
     } else {
       setErrors(validErrors);
     }
@@ -153,7 +153,7 @@ function EditEmployee() {
             <button type="submit" className="btn btn-outline-primary">
               Submit
             </button>
-            <Link className="btn btn-outline-danger mx-2" to="/product">
+            <Link className="btn btn-outline-danger mx-2" to="/employee">
               Cancel
             </Link>
           </form>

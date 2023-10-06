@@ -51,7 +51,7 @@ function AddEmployee() {
 
         if (isCheck) {
             await axios.post("http://localhost:8080/api/add-employee", employee)
-            navigate("/product");
+            navigate("/employee");
         } else {
             setErrors(validErrors);
         }
@@ -149,7 +149,7 @@ function AddEmployee() {
                         <button type="submit" className="btn btn-outline-primary">
                             Submit
                         </button>
-                        <Link className="btn btn-outline-danger mx-2" to="/product">
+                        <Link className="btn btn-outline-danger mx-2" to="/employee">
                             Cancel
                         </Link>
                     </form>

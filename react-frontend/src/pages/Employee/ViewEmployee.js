@@ -57,7 +57,7 @@ function ViewEmployee() {
                             </ul>
                         </div>
                     </div>
-                    <Link className="btn btn-primary my-2" to={"/product"}>
+                    <Link className="btn btn-primary my-2" to={"/employee"}>
                         Back to Home
                     </Link>
                 </div>

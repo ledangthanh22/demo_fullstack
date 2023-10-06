@@ -30,7 +30,7 @@ const Employee = () => {
   return (
 
     <div className="container">
-      <Link className="btn btn-outline-dark mt-4 mb-3 float-end" to="/product/add-employee" >Add Employee</Link>
+      <Link className="btn btn-outline-dark mt-4 mb-3 float-end" to="add-employee" >Add Employee</Link>
       <div className="py-4">
         <table className="table border shadow">
           <thead>
